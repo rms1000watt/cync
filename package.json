@@ -1,0 +1,44 @@
+{
+  "name": "cync",
+  "version": "1.0.1",
+  "description": "Flux Simplified immutable data store with syncable react component",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "./node_modules/.bin/webpack-dev-server --progress -d --colors --config ./example/webpack.config.js",
+    "prepublish": "./node_modules/.bin/babel src/ --out-dir lib/"
+  },
+  "author": "rms1000watt",
+  "license": "MIT",
+  "dependencies": {
+    "immutable": "^3.8.1"
+  },
+  "peerDependencies": {
+    "react": "^15.3.0"
+  },
+  "devDependencies": {
+    "react": "^15.3.0",
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "react-dom": "^15.3.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rms1000watt/cync.git"
+  },
+  "keywords": [
+    "react",
+    "flux",
+    "store",
+    "immutable"
+  ],
+  "bugs": {
+    "url": "https://github.com/rms1000watt/cync/issues"
+  },
+  "homepage": "https://github.com/rms1000watt/cync"
+}
